@@ -10,4 +10,6 @@ public class Giocatore {
         capitano="";
         goal = 0;
     }
+
+
 }
