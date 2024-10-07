@@ -11,14 +11,9 @@ public class Giocatore {
         goal = 0;
     }
     public Giocatore (String n, boolean cap,int g){
-        nome = n;
-        capitano = cap;
-        if (g >= 0) {
-            goal = g;
-        } else {
-            System.out.println("Il numero di gol deve essere positivo, Assegnato 0 gol.");
-            goal = 0;
-        }
+        setNome(n);
+        setCapitano(cap);
+        setGoal(g);
     }
     public String getNome() {
         return nome;
@@ -39,7 +34,6 @@ public class Giocatore {
         if (g >= 0) {
             goal = g;
         } else {
-            System.out.println("Il numero di gol deve essere positivo, Assegnato 0 gol.");
             goal = 0;
         }
     }

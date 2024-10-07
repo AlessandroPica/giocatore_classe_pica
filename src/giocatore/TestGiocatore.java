@@ -20,6 +20,7 @@ public class TestGiocatore {
             scelta = in.nextInt();
             switch (scelta) {
                 case 1:
+
                     break;
                 case 2:
                     break;
