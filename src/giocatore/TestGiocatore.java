@@ -20,6 +20,8 @@ public class TestGiocatore {
             scelta = in.nextInt();
             switch (scelta) {
                 case 1:
+                    System.out.print("Inserisci il nome del giocatore: ");
+                    String nome = in.nextLine();
 
                     break;
                 case 2:
@@ -42,4 +44,8 @@ public class TestGiocatore {
             }
         } while (scelta != 0);
     }
+
+
+
+
 }
