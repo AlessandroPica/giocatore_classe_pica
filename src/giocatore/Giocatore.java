@@ -15,4 +15,22 @@ public class Giocatore {
         capitano = cap;
         goal = g;
     }
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String n) {
+        nome = n;
+    }
+    public boolean getCapitano() {
+        return capitano;
+    }
+    public void setCapitano(boolean cap) {
+        capitano = cap;
+    }
+    public int getGoal() {
+        return goal;
+    }
+    public void setGoal(int g) {
+        goal = g;
+    }
 }
