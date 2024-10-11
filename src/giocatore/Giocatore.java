@@ -15,6 +15,17 @@ public class Giocatore {
         setCapitano(cap);
         setGoal(g);
     }
+    public Giocatore (String n, boolean cap){
+        setNome(n);
+        setCapitano(cap);
+        setGoal(0);
+    }
+    public Giocatore (int g){
+        setNome(null);
+        setCapitano(null);
+        setGoal(g);
+    }
+
     public String getNome() {
         return nome;
     }
