@@ -113,7 +113,7 @@ public class TestGiocatore {
                 if (giocatore.getCapitano()) {
                     return giocatore.getNome() + " è il capitano";
                 }
-                return giocatore.getNome() + "non è il capitano";
+                return giocatore.getNome() + "non è il capitano!";
             }
             return null;
     }
