@@ -21,8 +21,8 @@ public class Giocatore {
         setGoal(0);
     }
     public Giocatore (int g){
-        setNome(null);
-        setCapitano(null);
+        nome = "";
+        capitano=false;
         setGoal(g);
     }
 
